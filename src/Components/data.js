@@ -1,42 +1,42 @@
 const data = [
     {
         id: 1,
-        imgUrl:"./src/assets/youtube.jpg",
+        imgUrl:"youtube.jpg",
         title:"YouTube Mobile",
         des:"Simplified Version of Youtube mobile.",
         webLoc:'https://transcendent-speculoos-087530.netlify.app/'
     },
     {
         id: 2,
-        imgUrl:"./src/assets/quiz.jpg",
+        imgUrl:"quiz.jpg",
         title:"Quiz App",
         des:"Simple MCQ quizz app.",
         webLoc:'https://vermillion-melomakarona-36d5df.netlify.app/'
     },
     {
         id: 3,
-        imgUrl:"./src/assets/weath.jpg",
+        imgUrl:"weath.jpg",
         title:"Weather App",
         des:"Displays Weather depending on your Location.",
         webLoc:'https://resilient-muffin-73a8b3.netlify.app/'
     },
     {
         id: 4,
-        imgUrl:"./src/assets/Mark.jpg",
+        imgUrl:"Mark.jpg",
         title:"Markdown Previewer",
         des:"Markdown syntax to text.",
         webLoc:'https://glistening-moonbeam-df1a24.netlify.app/'
     },
     {
         id: 5,
-        imgUrl:"./src/assets/cal.jpg",
+        imgUrl:"cal.jpg",
         title:"JS Caluculator",
         des:"Fully working calculetor made with JS.",
         webLoc:'https://verdant-otter-b9526f.netlify.app/'
     },
     {
         id: 6,
-        imgUrl:"./src/assets/rock.jpg",
+        imgUrl:"rock.jpg",
         title:"Rock Paper scissor",
         des:"Rock papaer scissors game we all love.",
         webLoc:'https://fanciful-baklava-a11959.netlify.app/'

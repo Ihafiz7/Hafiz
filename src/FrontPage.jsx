@@ -11,7 +11,7 @@ const FrontPage = () => {
       <div className=' flex items-center justify-between py-4 px-16'>
         <img src='logo.svg' alt='Logo' className=' w-16 h-16 max-sm:w-12 max-sm:h-12 md:w-14 md:h-14 hover:bg-black' />
         <div className='max-sm:hidden md:flex xl:flex  '> <Nav /></div>
-        <img  src={(!isMenuOpen)? './src/assets/menu.svg' : './src/assets/cross.svg'} className=' w-12 h-12 xl:hidden md:hidden cursor-pointer' onClick={handleClick} />
+        <img  src={(!isMenuOpen)? 'menu.svg' : 'cross.svg'} className=' w-12 h-12 xl:hidden md:hidden cursor-pointer' onClick={handleClick} />
       </div>
       {isMenuOpen && ( 
         <div className='flex items-center justify-center m-2'>
@@ -23,7 +23,7 @@ const FrontPage = () => {
         <h3 className=' font-monsa font-medium text-2xl max-sm:px-5 max-sm:text-lg md:text-xl text-center'>I like to code simple products beautifully for best user experiences.</h3>
       </div>
       <div className='flex items-center justify-center mt-12'>
-        <img src='./src/assets/hafiz.png' className=' w-56 h-56 rounded-full border-[3px] border-[#6E07F3] ' />
+        <img src='hafiz.png' className=' w-56 h-56 rounded-full border-[3px] border-[#6E07F3] ' />
       </div>
     </div>
   )

@@ -28,7 +28,7 @@ const Display = () => {
             </div>
             <div className='flex flex-col items-center justify-center text-white mb-8'>
                 <p className='font-monsa font-semibold text-2xl text-center'>HandCrafted By me©twentytwentyfour</p>
-                <p className=' flex items-center justify-center font-monsa'>Made With<img src='./src/assets/react.svg' className='w-12 h-12 ml-4'/><span className='font-bold sm:text-lg md:text-4xl '>React</span> <span className='mx-4'> and</span> <img src='./src/assets/tailwind.svg' className='w-12 h-12'/><span className='font-bold sm:text-lg md:text-3xl'>Tailwind</span></p>
+                <p className=' flex items-center justify-center font-monsa'>Made With<img src='react.svg' className='w-12 h-12 ml-4'/><span className='font-bold sm:text-lg md:text-4xl '>React</span> <span className='mx-4'> and</span> <img src='tailwind.svg' className='w-12 h-12'/><span className='font-bold sm:text-lg md:text-3xl'>Tailwind</span></p>
             </div>
         </div>
     </div>
