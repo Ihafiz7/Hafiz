@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron&family=Playfair+Display:ital@0;1&family=Roboto&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+};
+
+@layer utilities {
+  .border-gradient {
+    border-image: linear-gradient(#0001, #000) fill 0;
+  };
+};
+
+.custom-circle{
+  @apply w-10 h-10 bg-white rounded-full border-2 ;
+};
+
+::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
