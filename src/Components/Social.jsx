@@ -10,7 +10,7 @@ const Social = () => {
         <a href="https://www.linkedin.com/in/hafiz-asad-a7a93b210/" target='_blank' rel='noopener noreferrer' className="p-2 rounded-full bg-gray-200 hover:bg-red-300">
             <img src='linkin.svg' alt="in" className="w-8 h-8" />
         </a>
-        <a href="https://wa.me/01916119909?text=Hello%20there!"  target='_blank' rel='noopener noreferrer' className="p-2 rounded-full bg-gray-200 hover:bg-red-300">
+        <a href="https://wa.me/+8801916119909?text=Hello%20there!"  target='_blank' rel='noopener noreferrer' className="p-2 rounded-full bg-gray-200 hover:bg-red-300">
             <img src='whatsapp.svg' alt="app" className="w-8 h-8" />
         </a>
     </div>
