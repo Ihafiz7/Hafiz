@@ -16,10 +16,6 @@
   };
 };
 
-.custom-circle{
-  @apply w-10 h-10 bg-white rounded-full border-2 ;
-};
-
 ::-webkit-scrollbar {
   display: none;
   -ms-overflow-style: none; 
